@@ -1,0 +1,108 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+
+
+
+.carousel-indicators {
+  /*background-color: #1976d2;*/
+  bottom: -42px;
+}/* You can add global styles to this file, and also import other style files */
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+.arizonapackagetitle
+{
+  font-size: 65px;
+  padding-bottom: 130px;
+}
+#my_image { position: relative; }
+#button_id { position: absolute; right: 5px; top: 4px; }
+
+.readmorebtn{
+  position: absolute;
+  top: 83%;
+  left: 117%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1px;
+  text-align: center;
+}
+.space{
+  margin-top: 200px;
+}
+
+.Contactusbtn{
+  float: right;
+  position: absolute;
+  top: 85%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /*background-color: #555;*/
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  background-color: orange;
+}
+.w3-input{
+  display: inline-block;
+}
+.orange{
+  background-color: orange;
+}
+.w3-block{
+  width:unset;
+}
+.cus{
+  float: left;
+}
+ .comment {
+   width: 60%;
+   height: 100px;
+   padding: 10px;
+   background-color: #d0e2bc;
+   font: 1.4em/1.6em cursive;
+   color: #095484;
+ }
+.connecttous{
+  padding: 239px;
+}
